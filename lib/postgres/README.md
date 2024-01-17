@@ -1,33 +1,16 @@
-### 企業内に経済圏を実装するアプリのモデル
+## postgres package
 
-企業内に経済圏を作る場合の基本的なアプリケーションモデルを実装します
+- this is for generating DDL, DML and its typescript code with using sqlc.
+- this package is only for postgres and gen DML.
 
-経済圏を作るひとつの目的は、企業という一種のコミュニティの価値交換機能を実装し、活性化を図ることが挙げられます
+### Usage
 
-企業内は一つのコミュニティの例であり,
-各種SNSにも適応可能です
+- check init.sh to install env such as Golang, Postgres, etc.
 
-#### 画面推移
+### Dependency
 
-![view transition](<docs/images/README/Screenshot 2024-01-17 072921.png>)
-
-#### データモデル
-
-※RDBMSの場合
-
-![data model](<docs/images/README/Screenshot 2024-01-17 073533.png>)
-
-#### 技術
+- golang
+- sqlc
+- postgres
 - typescript
-- hono 3.12.5
-- postgres 16.1
-- vitest
-
-#### 開発環境
-- windows 11
-- wsl2 / ubuntu22.04
-- nodejs 21.5.0
-- pnpm 8.10.5
-- devbox 0.8.2
-- biome 1.5.1
-- testcontainer 10.4.0
+- @PorcoRosso85/statemodel ( optional ) 
