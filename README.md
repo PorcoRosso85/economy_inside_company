@@ -9,14 +9,12 @@
 
 ### 画面推移
 
-![view transition](<docs/images/README/Screenshot 2024-01-17 072921.png>)
-
+![view transition](<Screenshot 2024-01-17 072921.png>)
 ### データモデル
 
 ※RDBMSの場合
 
-![data model](<docs/images/README/Screenshot 2024-01-17 073533.png>)
-
+![data model](<Screenshot 2024-01-17 073533.png>)
 
 ## Env
 

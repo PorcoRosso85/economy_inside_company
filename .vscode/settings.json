@@ -17,5 +17,8 @@
     "quickfix.biome": "explicit",
     "source.organizeImports.biome": "explicit"
   },
-  "svg.preview.background": "editor"
+  "svg.preview.background": "editor",
+  "markdown.copyFiles.destination": {
+    "/README.md": "docs/images/${documentBaseName}/"
+  }
 }
